@@ -22,7 +22,7 @@ function Subscribe() {
                         xl:w-[60%] 
                         border-b-[1px] border-[#02293e73]' />
 
-                    <div className='subscribe-btn w-full h-fit pt-[5px] pb-[5px] pl-[30px] pr-[30px] border-[1px] border-text-color
+                    <div className='subscribe-btn cursor-pointer w-full h-fit pt-[5px] pb-[5px] pl-[30px] pr-[30px] border-[1px] border-text-color hover:bg-[#79909c] hover:border-[1px] hover:border-[#79909c] hover:shadow-md hover:shadow-text-color
                          xl:w-[300px]'>
                         <span className='font-font-poppins text-[14px] uppercase text-text-color'>Subscribe</span>
                         <img className='hidden' src={line} alt="" />
@@ -31,8 +31,8 @@ function Subscribe() {
 
                 <div className='subs-checkbox mt-[20px] flex text-start items-center gap-[10px] 
                     md:pl-[3em] md:pr-[3em]'>
-                <input type="checkbox" />
-                    <span className='font-font-poppins text-[14px]'>I’m happy for the Palms Merkur Royale Casino to send me news and inspiration.</span>
+                    <input type="checkbox" id="checkbox" className='cursor-pointer' />
+                    <label for='checkbox' className='font-font-poppins text-[14px] cursor-pointer'>I’m happy for the Palms Merkur Royale Casino to send me news and inspiration.</label>
                 </div>
             </div>
 
