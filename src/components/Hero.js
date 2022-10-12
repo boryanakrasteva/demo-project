@@ -25,14 +25,13 @@ function Hero() {
             <div className='layer w-screen 
                 lg:relative lg:top-0 lg:flex lg:flex-col lg:items-center lg:justify-center lg:text-center '>
                 
-                <div className="container w-full flex flex-col pl-3 pr-3 items-center text-center justify-center gap-[25px] mt-5 
+                <div className="container w-full h-fit flex flex-col pl-3 pr-3 items-center text-center justify-center gap-[25px] mt-5 
                     lg:absolute lg:flex lg:flex-col lg:items-center lg:justify-center">
                     
                    
 
-                    <div className='hero-btn z-[1] cursor-pointer w-[80%] h-fit p-[5px] border-[1px] border-text-color text-center mb-[60em] 
-                        md:mb-[30em]
-                        lg:relative lg:w-fit lg:pt-[5px] lg:pb-[5px] lg:pl-[30px] lg:pr-[30px] lg:border-secondary-color'>
+                    <div className='hero-btn z-[1] cursor-pointer w-[80%] p-[5px] border-[1px] border-text-color text-center
+                        lg:relative lg:w-fit lg:pt-[5px] lg:pb-[5px] lg:pl-[30px] lg:pr-[30px] lg:border-secondary-color lg:mb-[60em] '>
                         <span className='z-[1] text-font-poppins text-[14px] 
                             lg:relative  lg:text-secondary-color 
                             xl:text-[16px]'>Read more</span>
@@ -83,12 +82,6 @@ function Hero() {
                         <h1 className='font-font-poppins  text-[20px] xl:text-[24px] font-bold text-secondary-color'>03.</h1>
                         <p className='xl:text-[18px]'>Simply dummy text</p>
                     </div>
-                </div>
-
-                <div className="pagination-2 flex text-center justify-center gap-[3em] lg:hidden">
-                    <div className='w-[10px] h-[10px] border-[1px] border-text-color rounded-[50%] bg-text-color'></div>
-                    <div className='w-[10px] h-[10px] border-[1px] border-text-color rounded-[50%]'></div>
-                    <div className='w-[10px] h-[10px] border-[1px] border-text-color rounded-[50%]'></div>
                 </div>
 
             </div>
